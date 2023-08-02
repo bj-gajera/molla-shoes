@@ -19,7 +19,7 @@ const Navbar = () => {
             <img src={Images} className="" alt="" />
           </div>
           <div className="hidden md:block">
-            <ul className="flex gap-10 py-8 ">
+            <ul className="flex gap-10 py-2 ">
               <Link to="/">
                 <li>
                   <a href="">HOME</a>
@@ -69,7 +69,7 @@ const Navbar = () => {
                   </button>
                 </li>
               </Link>
-              <li className="md:hidden block ">
+              <li className="md:hidden block  ">
                 <button onClick={() => setOpen(!open)}>
                   <FiMenu size={22} />
                 </button>
@@ -80,7 +80,7 @@ const Navbar = () => {
       </div>
       {open === true && (
         <>
-          <div className="absolute top-20 text-center mx-4 w-[350px] z-10  bg-gray-50 ">
+          <div className="absolute top-20 text-center  w-[375px] z-10  bg-gray-50 ">
             <ul className=" ">
               <Link to="/">
                 <li>

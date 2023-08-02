@@ -47,7 +47,7 @@ const Cartcard = ({ item, handleRemove }) => {
           <p>${item.price}</p>
         </div>
         <div className=" col-span-1 py-3 ">
-          <div className="flex px-36 md:px-0">
+          <div className="flex px-32 md:px-0">
             <div>
               <button onClick={decre} className="h-8 w-8 bg-slate-300">
                 -

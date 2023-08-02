@@ -193,7 +193,7 @@ const Contactus = () => {
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
-          className="w-[410px] h-[320px] md:w-full md:h-[460px] pt-4 md:pt-12"
+          className="w-[370px] h-[320px] md:w-full md:h-[460px] pt-4 md:pt-12"
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
